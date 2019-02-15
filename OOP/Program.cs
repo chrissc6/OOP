@@ -4,7 +4,7 @@ namespace OOP
     //Class-
     //A class is like a blueprint or model, for creating a object. (specifies what the type can do)
     //Used as a definition, to create objects.
-    //A class is a data structure, that may contain: data members(constants and fields), function memebers (methods,
+    //A class is a data structure, that may contain: data members(constants and fields), function members (methods,
     //properties, events, indexers, operators, instance constructors, destructors, and static constructors), and nested types.
 
     //Defining a class we need 4 things:
@@ -92,12 +92,29 @@ namespace OOP
 
     }
 }
+//The 3 pillars of object oriented programming (oop)
+//1. Encapsulation - How does the the language hide the internal implementation details,
+//and preserve data integrity?
+//2. Inheritance - How does the language promote code reuse?
+//3. Polymorphism - How does the language let you treat related objects in a similar way?
+
+//In oop everything is an object
+//Every object can have its own properties (data), and methods (functions)
+//Objects can have it own objects (the car has an engine with its own properties)
+//All objects are defined by classes
+//Classes are the blueprints that define what an object can do, what it can store, and how it functions
+//When we create a new object base on a class it contains all the nonprivate members of that class
+//Objects give us an opportunity to expose functionality and hide it implementation (abstraction)
+
+
+
 
 //Field- variable that belongs to your class
 //Fields are members of their containing type
 //Can be of any type, even user defined (like classes)
 //Has scope in the entire class (so any method in the class can see it)
 //Used to store information within the class (most often private, to keep control of manipulation)
+//Should use camelCase
 
 //Properties- represent items of data in a class or instance
 //A flexible mechanism to read, write, or compute the value of a private field
@@ -108,6 +125,7 @@ namespace OOP
 //The value keyword in set is a contextual keyword
 //Reasons to use a backing field (control access to data, or do a calculated field "read only variables")
 //You can omit the "backing field", by using an auto property
+//Should use PascalCase
 
 
 //Constructors- When a class or struct is created, its constructor is called. 
